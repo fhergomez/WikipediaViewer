@@ -1,0 +1,12 @@
+* {
+  margin: auto;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFF;
+}
+
+.form {
+  margin: auto;
+}
