@@ -12,8 +12,25 @@ body {
   max-width: 600px;
 }
 
+#label {
+  font-family: 'Lobster', Helvetica;
+  font-size: 1.4em;
+}
+
 .navBar {
   margin: auto;
   max-width: 600px;
   margin-top: 60px;
+  border: 3px;
+}
+
+@media (max-width: 769px) {
+  .brand {
+    position: absolute;
+    margin-left: -15px;
+  }
+
+  .home {
+    margin-top: 40px;
+  }
 }

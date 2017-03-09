@@ -5,6 +5,7 @@
   <title>Wikipedia Viewer</title>
   <!-- Latest compiled and minified CSS & JS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster">
   <script src="//code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -25,9 +26,9 @@
             </button>
           </div>
           <div class="collapse navbar-collapse" id="demo-navbar-collapse">
-            <a class="navbar-brand" href="#">Wikipedia Viewer</a>
+            <a class="navbar-brand brand" href="#">Wikipedia Viewer</a>
             <ul class="nav navbar-nav">
-              <li class="active">
+              <li class="active home">
                 <a href="http://www.fernandogomez.io">Home</a>
               </li>
               <li>
@@ -42,13 +43,16 @@
       <form action="" method="GET" role="form">
         <!-- <legend>Form title</legend> -->
         <div class="form-group">
-          <label for="">Search for an Article</label>
+          <label id="label">Search for an Article</label>
+          <img src="http://blavity.blavity.netdna-cdn.com/wp-content/uploads/2016/01/wikipedia-696x392.jpg?857868">
           <input type="text" class="form-control" id="searchTerm" placeholder="Please enter your search article here...">
         </div>
         <button type="submit" class="btn btn-primary" id="search">Search</button>
       </form>
-      <div id="output">
+      <div>
+        <ul id="output">
 
+        </ul>
       </div>
     </div>
   </div>

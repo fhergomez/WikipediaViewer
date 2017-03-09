@@ -13,15 +13,16 @@ $(document).ready(function(){
       dataType: "json",
       success: function(data){
         console.log(data);
-        for (var i = 0; i <= data[0].length - 1; i++) {
+        $('#output').html('');
+        for (var i = 0; i < data[1].length - 1; i++) {
           console.log(data[1][i]);
-          $('#output').html(data[1][i]);
+          $('#output').prepend('<li><a href=' +  data[3][i] + '>' + data[1][i] + '</a><p>' + data[2][i] + '</p></li>');
         }
 
 
       },
       error: function(errorMessage){
-        alert('error');
+        console.log(errorMessage);
       }
     });
   });
