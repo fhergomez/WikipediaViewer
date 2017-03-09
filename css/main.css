@@ -12,6 +12,11 @@ body {
   max-width: 600px;
 }
 
+.logo {
+  margin: auto;
+  float: right;
+}
+
 #label {
   font-family: 'Lobster', Helvetica;
   font-size: 1.4em;
