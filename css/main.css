@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #FFF;
+  background-color: #ADD140;
 }
 
 .form {
@@ -14,28 +14,85 @@ body {
 
 .logo {
   margin: auto;
-  float: right;
+  width: 475px;
 }
 
+
 #label {
-  font-family: 'Lobster', Helvetica;
+  font-family: 'Montserrat', Helvetica;
   font-size: 1.4em;
+}
+
+.randomBtn, .randomBtn:hover {
+  background-color: #008080;
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background-color: #008080 !important;
+  text-align: center;
+}
+
+.navbar-default .navbar-nav>.active>a>p {
+  background-color: #008080;
+  font-size: 2.5em;
+  min-width: 505px;
+  color: #000;
+  line-height: .9em;
+  text-align: center;
 }
 
 .navBar {
   margin: auto;
   max-width: 600px;
-  margin-top: 60px;
+  margin-top: 10px;
   border: 3px;
+  color: #fff;
+}
+
+.navHeader, #searchBtn {
+  background-color: #ef7d0b;
 }
 
 @media (max-width: 769px) {
-  .brand {
-    position: absolute;
-    margin-left: -15px;
+  .navbar-default .navbar-nav>.active>a>p {
+    font-size: 1.5em;
+    min-width: 300px;
   }
+}
 
-  .home {
-    margin-top: 40px;
-  }
+ul#output {
+  padding-left: 0px;
+  margin-left: -5px;
+}
+
+ul#output li {
+  list-style-type: none;
+  margin: 5px;
+  padding: 1px 5px 5px 10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-family: 'Montserrat', Helvetica;
+  color: #000;
+  background-color: #008080;
+}
+
+ul#output li:hover {
+  border-left: 5px solid #FFF;
+  padding-left: 5px;
+}
+
+a.data {
+  display: block;
+  margin-top: 10px;
+  padding: 0px;
+  color: #ef7d0b;
+  font-weight: strong;
+}
+
+
+
+a.data:hover {
+  text-decoration: none;
+  color: #FFF;
 }
