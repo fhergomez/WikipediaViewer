@@ -79,15 +79,18 @@ ul#output li {
 
 ul#output li:hover {
   border-left: 5px solid #FFF;
+  border-right: 5px solid #FFF;
   padding-left: 5px;
+  padding-right: 0px;
 }
 
-a.data {
+a.data, a.data:visited {
   display: block;
   margin-top: 10px;
   padding: 0px;
   color: #ef7d0b;
   font-weight: strong;
+  text-decoration: none;
 }
 
 
